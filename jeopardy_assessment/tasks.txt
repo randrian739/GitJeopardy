@@ -1,0 +1,12 @@
+// plan out the board
+// render the board
+// add styling
+// see what the API returning
+// build our game data structures
+// figure out how to match the game data
+// add event listeners to the board cells
+// display values in cells (100, 200, 300, 400, 500)
+// have the cells respond to clicks 
+// loading spinner
+//randomize catergories
+// maybe keep track of the score

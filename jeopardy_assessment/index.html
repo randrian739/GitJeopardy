@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jeopardy</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <main>
+        <h1>Welcome to Jeopardy</h1> 
+        <button id="start-button">Start Game</button>
+        <button id="reset-button">Reset Game</button>
+        <div id="loading-spinner" aria-label="loading" aria-hidden = "true"></div>
+        <table id="jeopardy">
+          <thead>
+            <tr id="jeopardy-head-row"></tr>
+          </thead>
+          <tbody id="jeopardy-body"></tbody>
+        </table>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
